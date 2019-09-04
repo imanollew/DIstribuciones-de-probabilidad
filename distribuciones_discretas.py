@@ -25,7 +25,6 @@ def ObtenerGeometrica(P,cantidadValores):
 	for indice in range(cantidadValores):
 		valor=Geometrica(P)
 		listaResultado.append(valor)
-	#print(listaResultado)
 	return listaResultado
 
 def Geometrica(P):
